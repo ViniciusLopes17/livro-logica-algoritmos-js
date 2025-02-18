@@ -1,0 +1,23 @@
+img{
+    float: left;
+    height: 400px;
+    width: 450px;
+}
+h1{
+    border-bottom-style: inset;
+}
+pre{
+    font-size: 1.2em;
+}
+.fonteAzul{
+    color: blue;
+}
+.oculta{
+    display: none;
+}
+.exibe{
+    display: inline;
+}
+.italico{
+    font-style: italic;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex5_2.css">
+    <title>Exemplo 5.2</title>
+</head>
+<body>
+    <img src="ex5_2.jpg" alt="Jogo do Número">
+    <h1>Descubra o Número</h1>
+    <p>
+        Número:
+        <input type="text" id="inNumero" max="100" min="1" autofocus>
+        <input type="button" id="btApostar" value="Apostar">
+        <input type="button" value="Jogar Novamente" id="btJogar" class="oculta">
+    </p>
+    <h3>
+        Erros:
+        <span id="outErros">0</span>
+    </h3>
+    <h3>
+        Chances:
+        <span id="outChances">6</span>
+    </h3>
+    <h3 id="outDica" class="italico">Dica: é um número entre 1 a 100</h3>
+    <script src="ex5_2.js"></script>
+</body>
+</html>
